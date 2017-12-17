@@ -1,0 +1,52 @@
+[
+{
+"question" : "The branch of physics which deals with charges at rest is called as  _________", 
+"answers" : [ "current electricity", "electromagnetic induction", "electrostatic induction", "electrostatics" ] ,
+"correct_answer" : 0
+ },
+{
+"question" : "If an glass rod is rubbed with silk, it becomes  _________",
+"answers" : [ "positively charged", "negatively charged", "positively and negatively charged", "uncharged" ] ,
+"correct_answer" : 0
+ },
+{
+"question" : "Bodies which do not allow the charges to pass through them are called  _________",
+"answers" : [ "conductors", "insulators", "conductors and insulators", "none of the above" ] ,
+"correct_answer" : 0
+ },
+{
+"question" : "The force between two point charges q1 and q2	is given by the equation _________", 
+"answers" : [ "F =  q1 q2 / 4pe r3", "F  =  q1 q2   /	4pe r 2", "F =  q1 q2  /  4pe r", "F =  q1 q2   / 4pe r4" ] ,
+"correct_answer" : 0
+ },
+{
+"question" : "If charged bodies of charges 5q , -3q , -2q and 5q are brought in contact, then the total charge = _________",
+"answers" : [ "15 q", "-15 q", "5 q",	 "-5 q" ] , 
+"correct_answer" : 0
+ },
+{
+"question" : "The value of the permittivity of free space is _________ C 2 N -1 m -2", 
+"answers" : [ "8854 X 10 -12", "8854 X 10 12", "6623 X 10 - 34", "16 X 10 -19" ] ,
+"correct_answer" : 0
+ },
+{
+"question" : "For air, e r  = _________", 
+"answers" : [ "0", "1", "2", "3" ] ,
+"correct_answer" : 0
+ },
+{
+"question" : "The force exerted by an electric field E on a charge q is _________",
+"answers" : [ "F = E / q", "F = Eq", "F = q /E", "F = 1 / Eq" ] ,
+"correct_answer" : 0
+ },
+{
+"question" : "The unit of electric dipole moment is  _________",
+"answers" : [ "C / m", "C 2 N -1 m -2", "Js-1",	"C m" ] ,
+"correct_answer" : 0
+ },
+{
+"question" : "The electric field at any point on the axial line of an electric dipole is given by the equation	_________",
+"answers" : [ "E = p / 4pe r 3", "E = 2pcos  / 4pe r 3", "E = 2pcos  / 4pe r 2", "E = 2p / 4pe r 3" ] ,
+"correct_answer" : 0
+}
+]

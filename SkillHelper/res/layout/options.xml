@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RadioGroup android:background="@android:color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="horizontal" >
+ -->
+            <RadioButton
+                android:button="@drawable/radio_button_selector"
+                android:id="@+id/option_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:onClick="onRadioButtonClicked"
+                android:text="d"
+                android:textColor="@android:color/black"
+                android:textSize="13sp" />
+
+            <RadioButton 
+                android:button="@drawable/radio_button_selector"
+                android:id="@+id/option_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:onClick="onRadioButtonClicked"
+                android:text="a"
+                android:textColor="@android:color/black"
+                android:textSize="13sp" />
+           <!-- </LinearLayout> -->
+
+   <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="horizontal" >
+   -->
+            <RadioButton 
+                android:button="@drawable/radio_button_selector"
+                android:id="@+id/option_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:onClick="onRadioButtonClicked"
+                android:text="b"
+                android:textColor="@android:color/black"
+                android:textSize="13sp" />
+
+            <RadioButton 
+                android:button="@drawable/radio_button_selector"
+                android:id="@+id/option_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:onClick="onRadioButtonClicked"
+                android:text="c"
+                android:textColor="@android:color/black"
+                android:textSize="13sp" />
+         <!--  </LinearLayout> -->
+    </RadioGroup>
+
+</merge>

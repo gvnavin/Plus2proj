@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <LinearLayout
+        android:id="@+id/total_no_of_questions_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/total_no_of_questions_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Total No of Questions : "
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/total_no_of_questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/no_of_questions_answered_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/no_of_questions_answered_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="No of Questions Answered : "
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="13sp"
+            tools:ignore="NewApi,NewApi" />
+
+        <TextView
+            android:id="@+id/no_of_questions_answered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="13sp"
+            tools:ignore="NewApi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/no_of_correct_answers_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/no_of_correct_answers_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="No of Correct Answers : "
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="13sp"
+            tools:ignore="NewApi,NewApi" />
+
+        <TextView
+            android:id="@+id/no_of_correct_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@android:color/primary_text_dark"
+            android:textSize="13sp"
+            tools:ignore="NewApi" />
+    </LinearLayout>
+
+</merge>

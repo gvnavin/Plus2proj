@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_weight="0"
+    android:background="#ff161616"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <include layout="@layout/submit_status" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRefresh"
+            android:textColor="@android:color/primary_text_dark"
+            android:text="Refresh" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onSubmit"
+            android:textColor="@android:color/primary_text_dark"
+            android:text="Submit" />
+    </LinearLayout>
+
+</LinearLayout>
